@@ -15,7 +15,3 @@ Uygulama açıldığı zaman webview ile uygulama içerisinden direkt olarak "ht
   <img src="screenshots/service_center-2.png" alt="Giriş Sonrası" width="200"/>
   <img src="screenshots/service_center-3.png" alt="Hata Ekranı" width="200"/>
 </p>
-
-![Ana Sayfa](screenshots/service_center-1.png)
-![Giriş Sonrası](screenshots/service_center-2.png)
-![Hata Ekranı](screenshots/service_center-3.png)
