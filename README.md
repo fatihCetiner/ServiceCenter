@@ -9,6 +9,6 @@ Uygulama açıldığı zaman webview ile uygulama içerisinden direkt olarak "ht
 - Responsive olmayan sayfalar için zoom yapma veya uyumlu sayfa açılışı ayarları.
 
 # Uygulamada İçi Görseller
-![Ana Sayfa](screenshots/home.png)
-![Giriş Sonrası](screenshots/login.png)
-![Hata Ekranı](screenshots/loading.png)
+![Ana Sayfa](screenshots/service_center-1.png)
+![Giriş Sonrası](screenshots/service_center-2.png)
+![Hata Ekranı](screenshots/service_center-3.png)
