@@ -53,6 +53,20 @@ class ServiceCenterFragment : Fragment() {
             override fun onPageFinished(view: WebView?, url: String?) {
                 progressBarVisibility(false)
             }
+
+            override fun onReceivedError(
+                view: WebView?,
+                errorCode: Int,
+                description: String?,
+                failingUrl: String?
+            ) {
+                progressBarVisibility(false)
+                binding.serviceCenter.loadData(
+                    "<html><body><h2>Sayfa yüklenemedi!</h2><p>Lütfen internet bağlantınızı kontrol edin.</p></body></html>",
+                    "text/html",
+                    "UTF-8"
+                )
+            }
         }
     }
 
